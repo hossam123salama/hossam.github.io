@@ -1,8 +1,8 @@
 ---
-title: Lab_Master - IT Lab Management System (Desktop Application)
+title: Carvo (Desktop Application)
 classes: wide
 header:
-  teaser: https://github.com/user-attachments/assets/66bef4fa-e072-4fef-97b2-5476a6807155
+  teaser: https://github.com/user-attachments/assets/21f81b54-ebaa-46ac-a151-792740ba7f20
 ribbon: MidnightBlue
 categories:
   - Desktop_Applications
