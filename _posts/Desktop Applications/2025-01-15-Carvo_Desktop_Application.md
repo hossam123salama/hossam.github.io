@@ -10,112 +10,104 @@ toc: true
 ---
 
 
-> # Lab_Master
+> # Carvo
 
 
-**Lab_Master** is a desktop application designed to streamline the management of IT Department labs. It provides detailed insights into labs, computers, software, and students while offering group and student distribution automation.
-
----
-
-## Features and Functionalities
-
-### Lab Management
-1. **Lab Listings:**
-   - View a comprehensive list of all labs in the IT Department.
-   - Visualize each lab with a detailed **sketch**.
-
-2. **Lab Efficiency Analysis:**
-   - Assess lab statuses: **exists**, **outside**, **working well**, **has a problem**, and calculate efficiency percentage.
-   - Generate efficiency reports for individual labs or all labs.
+Here’s a polished and professional description you can use in your GitHub README file for the **Carvo Desktop Application** project:
 
 ---
 
-### Computer Management
-1. **Computer Details:**
-   - List all computers in a lab with the following attributes:
-     - **Hardware Details:** `caseSerialNumber`, `screenSerialNumber`, `computerName`, `processor`, `RAM`, `storage`, `graphicsCard`, `operatingSystem`.
-     - **Network Details:** `MACAddress`, `connectionToNetworkStatus`.
-     - **Operational Status:** `[status]`.
+# Carvo Desktop Application
 
-2. **Installed Software:**
-   - Display a list of installed software for each computer:
-     - **Software Name**, **Version**, **Category**.
+## Overview
 
-3. **Assigned Students:**
-   - List students using a computer with:
-     - **Student Name**, **Group**, **Number**.
+**Carvo** is a powerful desktop application tailored for managing car repair workshops and spare parts inventory. Designed with usability and control in mind, the system provides a complete suite of tools for tracking products, suppliers, customers, invoices, employees, and business reports — all wrapped in a secure, role-based environment.
+
+Admins have full access to manage all aspects of the system, while Employees operate within defined permissions, focusing on daily operations like creating invoices and handling inventory.
 
 ---
 
-### Report Management
-- Generate detailed reports on labs, computers, and software.
-- Save reports in **TXT** or **XLSX** formats or print them directly.
+## ✨ Key Features
+
+### 🔐 User Authentication & Roles
+
+* Secure login with username and password
+* Role-based access (Admin / Employee)
+* User management: create, edit, delete users with role assignments
+
+### 🛠️ Product & Category Management
+
+* Manage product categories (e.g., Engine, Brakes, Electrical)
+* Add/edit/delete products with details: name, stock, price, supplier, category, and import date
+* Filter products by category or supplier
+* Receive low-stock alerts and track product changes via activity logs
+
+### 📦 Supplier Management
+
+* Manage supplier information (name, contact, address, company)
+* Assign suppliers to products and track product supply history
+* Monitor outstanding balances and update payments with real-time calculations
+
+### 🚗 Customer & Vehicle Tracking
+
+* Maintain customer profiles and their vehicles (make, model, plate number)
+* Support for multiple vehicles per customer
+* View service and sales history per customer
+* Quick search by customer name or vehicle info
+
+### 🧾 Invoice System
+
+**Sales Invoices**
+
+* Select customer and parts sold
+* Auto-calculate subtotal, tax, discount, and total
+* Print or export invoice as PDF
+
+**Repair Invoices**
+
+* Include customer vehicle, issue description, parts used, and labor cost
+* Automatically calculate full repair cost
+* Save, print, or export invoice
+
+### 👥 Employee Management
+
+* Store employee details (name, role, salary, hire date, ID)
+* Track employee performance based on handled invoices
+* Define specific permissions per role
+
+### 📊 Reporting System
+
+* Generate detailed reports on:
+
+  * Sales (daily/monthly/yearly)
+  * Products (best-sellers, low stock)
+  * Supplier transactions
+  * Invoice activity
+* Filter by date, customer, employee, or vehicle
+* Export reports to Excel or PDF
 
 ---
 
-## Dashboard Capabilities
-1. **CRUD Operations (Create, Read, Update, Delete):**
-   - Manage labs, computers, groups, students, and software with ease.
+## 🎯 Why Carvo?
 
-2. **Automation:**
-   - Distribute groups among labs automatically.
-   - Assign students within groups to specific computers manually or automatically.
+With Carvo, you get a reliable, user-friendly desktop solution that simplifies workshop operations. From stock alerts to installment tracking, labor cost breakdowns, and role-specific access — every detail is covered to help you run your business smarter and more efficiently.
 
 ---
 
-## Primary Functionality
-The app automates lab and computer assignments:
-1. **Group Distribution:**
-   - Assign groups to labs intelligently based on capacity or criteria.
+Let me know if you’d like a shorter version, a visual badge layout (like technologies used), or GitHub-style table of contents.
 
-2. **Student Assignment:**
-   - Assign students in each group to computers within their respective labs.
-
----
-
-## How to Use
-1. Use the dashboard to manage labs, computers, groups, students, and software.
-2. Analyze lab efficiency and generate reports.
-3. Automatically distribute groups and students across labs and computers.
-
----
-
-## Output
-- View lab and computer details in-app.
-- Generate and save reports in **TXT** or **XLSX** formats.
-- Print reports directly for quick access.
-  
----
-
-## Used Technologies 
-- C#
-- SQL Server
-- WPF
-- ADO.NET
 
 
 ## Here are  ScreenShoots Of The Project
 
 
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/865dd7a5-4f9d-4419-be48-ce07ac90ab72"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/f565fa05-52fe-4451-8001-23cb2cc4a5ec"> <br><be>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/978b2670-e6fb-4e37-8f32-81a765da3049"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/6d59bef9-4278-4918-b0a0-104ca4807d8d"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/7d5a004f-0f32-4d95-9b10-96b54e88141a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/d9db5664-8633-4011-9727-17fc10b79205"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/5b9ee391-df3b-49cd-b973-87e88efd0ffa"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/32dc6ca4-7b7e-4fd3-ab16-b9b9294693f4"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/70430b1d-b070-42f3-919b-830f2ea4f29e"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/55a1ab3f-08f1-424e-a679-3b00f387f8cf"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/6799a687-2c5c-46d5-b645-fc45faca2874"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/a706483e-5f08-4570-b3aa-5f364a7c960a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/854d982f-6391-44c5-bbcd-5fe81cce6540"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/e1f4238c-7db8-4757-8599-db81ac29515b"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/c408ef61-3cbf-4ab0-8cbc-d37d73c08cef"> <br><be>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/87c2998e-38c1-4145-acba-5d8935f895e6"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/a50042ce-f157-45be-bd37-28ce5f8dae9a"> <br><br>
-<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/fe63b539-204c-4e26-a152-f5c187204f44"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/fda0a897-f6fc-405c-acdc-09e9511a7ce9"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/01789a05-4ad0-481b-ad03-202dcca36694"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/2418d9f1-2c5d-411a-aa2c-4ba169277787"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/0e30ea8f-e789-40e8-a7d3-60365412eaf0"> <br><br>
+<img   alt="Coding" width="600" src="https://github.com/user-attachments/assets/03995d33-348d-4c2b-beb0-07bfb5779f87"> <br><br>
+
 
 
 > # [Demonstration Video](https://youtu.be/o_8d6xQnCK8)
-> # [Check The Code Out](https://github.com/HusseinAdel7/Lab_Master)
+> # [Check The Code Out](https://github.com/hossam123salama/Carvo
